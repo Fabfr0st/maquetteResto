@@ -120,8 +120,35 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(168, 168, 168);
-    height: 15vh;
+    background-color: rgb(226, 226, 226);
+    height: 13vh;
     font-style: italic;
     font-weight: bold;
+}
+
+@media screen and (max-Width:576px) {
+    #headerImg {
+        height: 30vh;
+    }
+    #headerImg>h1 {
+        margin: 0.5rem;
+        font-size: 1.5rem;
+    }
+    #about,
+    #menu,
+    #contact {
+        width: 95%;
+    }
+    #about {
+        flex-direction: column-reverse;
+    }
+    #about div {
+        width: 100%;
+    }
+    #menu {
+        flex-direction: column;
+    }
+    #menu div {
+        width: 100%;
+    }
 }

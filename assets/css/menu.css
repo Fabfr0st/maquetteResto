@@ -30,3 +30,12 @@ nav>div {
     background-color: #FDE89A;
     cursor: pointer;
 }
+
+@media screen and (max-Width:576px) {
+    nav {
+        margin: 1rem 0;
+    }
+    #headerMenu {
+        display: none;
+    }
+}
